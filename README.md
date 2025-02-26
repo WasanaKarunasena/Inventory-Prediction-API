@@ -87,8 +87,10 @@ Response (JSON):
 
 Open Postman.
 
-Click Import → Select postman_collection.json (attached).
+Click Import → Select the file Inventory Prediction API.postman_collection.json (included in this repository).
+
+Once imported, open the Inventory Prediction API collection.
 
 Use the POST /predict request to test predictions.
 
-Click Send to get predictions.
+Click Send to get a response.

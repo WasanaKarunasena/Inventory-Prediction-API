@@ -1,7 +1,7 @@
 # Inventory-Prediction-API
 This repository contains an LSTM-based inventory sales prediction system. The project processes historical sales data and predicts future sales for a given store and item. It includes a FastAPI server to expose an HTTP endpoint for querying predictions
 
-## 📌 Features
+##  Features
 ✅ Train an **LSTM model** on historical sales data.  
 ✅ Provide sales predictions via an HTTP API (`/predict`).  
 ✅ Support for multiple stores and items.  
@@ -55,7 +55,7 @@ You should see output like.
 
 INFO:     Uvicorn running on http://127.0.0.1:8000
 
-🌍 API Endpoints
+ API Endpoints
 
 POST	-  /predict	Predict sales for a given store & item
 
@@ -63,7 +63,7 @@ GET -	/docs	Open API documentation (Swagger UI)
 
 Example Request,
 
-🔹 POST /predict
+ POST /predict
 
 URL: http://127.0.0.1:8000/predict
 
